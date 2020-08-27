@@ -98,6 +98,7 @@ void setup(void)
 
 void loop(void)
 {
+  
   /*commands.j1PotX = map(analogRead(A1), 0, 1023, 0, 255); // Convert the analog read value from 0 to 1023 into a BYTE value from 0 to 255
   commands.j1PotY = map(analogRead(A0), 0, 1023, 0, 255);
   commands.j2PotX = map(analogRead(A2), 0, 1023, 0, 255);
