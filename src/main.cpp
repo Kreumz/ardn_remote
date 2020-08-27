@@ -46,10 +46,10 @@ Commands commands;
 void SetDefaultValues()
 {
   // Set initial default values
-  commands.joy1X = 138;
-  commands.joy1Y = 50;
-  commands.joy2X = 254;
-  commands.joy2Y = 255;
+  commands.joy1X = 127;
+  commands.joy1Y = 127;
+  commands.joy2X = 127;
+  commands.joy2Y = 127;
   commands.joy1Button = 1;
   commands.joy2Button = 1;
   commands.pot1 = 1;
@@ -98,7 +98,7 @@ void setup(void)
 
 void loop(void)
 {
-  
+
   /*commands.j1PotX = map(analogRead(A1), 0, 1023, 0, 255); // Convert the analog read value from 0 to 1023 into a BYTE value from 0 to 255
   commands.j1PotY = map(analogRead(A0), 0, 1023, 0, 255);
   commands.j2PotX = map(analogRead(A2), 0, 1023, 0, 255);
