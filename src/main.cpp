@@ -99,14 +99,14 @@ void setup(void)
 void loop(void)
 {
 
-  /*commands.j1PotX = map(analogRead(A1), 0, 1023, 0, 255); // Convert the analog read value from 0 to 1023 into a BYTE value from 0 to 255
-  commands.j1PotY = map(analogRead(A0), 0, 1023, 0, 255);
-  commands.j2PotX = map(analogRead(A2), 0, 1023, 0, 255);
-  commands.j2PotY = map(analogRead(A3), 0, 1023, 0, 255);
+  /*commands.joy1X = map(analogRead(A1), 0, 1023, 0, 255); // Convert the analog read value from 0 to 1023 into a BYTE value from 0 to 255
+  commands.joy1Y = map(analogRead(A0), 0, 1023, 0, 255);
+  commands.joy2X = map(analogRead(A2), 0, 1023, 0, 255);
+  commands.joy2Y = map(analogRead(A3), 0, 1023, 0, 255);
   commands.pot1 = map(analogRead(A7), 0, 1023, 0, 255);
   commands.pot2 = map(analogRead(A6), 0, 1023, 0, 255);
-  commands.j1Button = digitalRead(jB1);
-  commands.j2Button = digitalRead(jB2);
+  commands.joy1Button = digitalRead(jB1);
+  commands.joy2Button = digitalRead(jB2);
   commands.sw1 = digitalRead(t1);
   commands.sw2 = digitalRead(t2);
   commands.button1 = digitalRead(b1);
